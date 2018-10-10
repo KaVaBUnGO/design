@@ -1,0 +1,191 @@
+html {
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    border: 1px solid;
+    background-image: url("https://i.lensdump.com/i/Ag7Cm1.jpg");
+    top: 0;
+    color: #ffffff;
+}
+
+.fixed-header-container {
+    background-image: url("https://i.lensdump.com/i/Ag7Cm1.jpg");
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+    margin: auto;
+}
+
+.header .header-content-title {
+    max-width: 1168px;
+    margin: auto;
+    padding: 15px 0;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 0;
+}
+
+.header .header-content-title .header-name {
+    display: inline-block;
+    width: 20%;
+}
+
+.header .header-content-title .header-name .first {
+    font-size: 30px;
+    font-weight: bolder;
+    opacity: 0.5;
+}
+
+.header .header-content-title .header-name .second {
+    font-size: 30px;
+}
+
+.menu {
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+}
+
+.menu div {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.menu div:last-child {
+    padding-right: 0;
+}
+
+.header .header-body {
+    text-align: center;
+}
+
+.header .header-body .title {
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.header .header-body .title .title-text {
+    max-width: 900px;
+    margin: auto;
+}
+
+.header .header-body .content {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .header-body .button {
+    padding: 10px;
+    background-color: red;
+    width: 140px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 120px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.body {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.body .body-item {
+    vertical-align: top;
+    position: relative;
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.body .body-item .image-title {
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.body .body-item .image-description {
+    padding: 0 30px;
+}
+
+.gallery {
+    font-size: 0;
+}
+
+.gallery .img {
+    width: 25%;
+    display: inline-block;
+    outline: 1px white solid;
+}
+
+.gallery .img img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #3e3c84;
+    min-width: 320px;
+    color: #ffffff;
+}
+
+.footer .footer-container {
+    width: 1168px;
+    margin: auto;
+    padding: 55px 0;
+    font-size: 20px;
+}
+
+.footer .footer-container .block {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer .footer-container .block .title {
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.footer .footer-container .block .row {
+    opacity: 0.5;
+    line-height: 25px;
+    max-width: 220px;
+    margin: auto;
+}
+
+.footer .footer-container .block .row-fat {
+    max-width: 320px;
+}
+
+.footer .footer-container .block .row-tiny {
+    max-width: 120px;
+}
+
+.copyright {
+    height: 80px;
+    background-color: #2e2e5c;
+    color: rgba(209, 207, 211, 0.23);
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+.copyright .text {
+    max-width: 150px;
+    margin: auto;
+}
